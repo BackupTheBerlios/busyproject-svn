@@ -19,20 +19,20 @@ if ( !defined('IN_BUSY') )
 
 $_BUSY['TablePrefix']='busy_';
 // defined table names
-define('PRODUCT_TABLE', $_BUSY['TablePrefix'].'product');
-define('PRODUCT_SPECIAL_TABLE', $_BUSY['TablePrefix'].'product_special');
-define('PRODUCT_STATUS_TABLE', $_BUSY['TablePrefix'].'product_status');
-define('PRODUCT_MANUFACTURER_TABLE', $_BUSY['TablePrefix'].'product_manufacturer');
-define('TAX_TABLE', $_BUSY['TablePrefix'].'tax');
-define('CATEGORY_TABLE', $_BUSY['TablePrefix'].'category');
-define('PRODUCT_REVIEW_TABLE', $_BUSY['TablePrefix'].'review');
-define('CUSTOMER_TABLE', $_BUSY['TablePrefix'].'customer');
-define('ADDRESS_TABLE', $_BUSY['TablePrefix'].'address');
-define('SESSION_TABLE', $_BUSY['TablePrefix'].'session');
-define('ORDER_TABLE', $_BUSY['TablePrefix'].'order');
-define('ORDER_PRODUCT_TABLE', $_BUSY['TablePrefix'].'order_product');
-define('ORDER_STATUS_TABLE', $_BUSY['TablePrefix'].'order_status');
-define('ORDER_STATUS_HISTORY_TABLE', $_BUSY['TablePrefix'].'order_status_history');
+//define('PRODUCT_TABLE', $_BUSY['TablePrefix'].'product');
+//define('PRODUCT_SPECIAL_TABLE', $_BUSY['TablePrefix'].'product_special');
+//define('PRODUCT_STATUS_TABLE', $_BUSY['TablePrefix'].'product_status');
+//define('PRODUCT_MANUFACTURER_TABLE', $_BUSY['TablePrefix'].'product_manufacturer');
+//define('TAX_TABLE', $_BUSY['TablePrefix'].'tax');
+//define('CATEGORY_TABLE', $_BUSY['TablePrefix'].'category');
+//define('PRODUCT_REVIEW_TABLE', $_BUSY['TablePrefix'].'review');
+//define('CUSTOMER_TABLE', $_BUSY['TablePrefix'].'customer');
+//define('ADDRESS_TABLE', $_BUSY['TablePrefix'].'address');
+//define('SESSION_TABLE', $_BUSY['TablePrefix'].'session');
+//define('ORDER_TABLE', $_BUSY['TablePrefix'].'order');
+//define('ORDER_PRODUCT_TABLE', $_BUSY['TablePrefix'].'order_product');
+//define('ORDER_STATUS_TABLE', $_BUSY['TablePrefix'].'order_status');
+//define('ORDER_STATUS_HISTORY_TABLE', $_BUSY['TablePrefix'].'order_status_history');
 define('NEWSLETTER_TABLE', $_BUSY['TablePrefix'].'newsletter');
 define('ADMIN_TABLE', $_BUSY['TablePrefix'].'admin');
 define('PROJECT_CONFIG_TABLE', $_BUSY['TablePrefix'].'project_config');

@@ -60,10 +60,8 @@ $_BUSY['LogFile'] = $_BUSY['RootDir']."busy.log";
 $_BUSY['LogLevel'] = 1;
 
 /************************ Database configuration ****************************/
-// table prefix name
-$_BUSY['TablePrefix'] = "busy_";
-
 // Database definition
+$_BUSY['ADODBServer'] = 'localhost';
 $_BUSY['ADODBName'] = 'busyteam_ecom_1';
 $_BUSY['ADODBUser'] = 'busyteam_test1';
 $_BUSY['ADODBPass'] = 'temp';

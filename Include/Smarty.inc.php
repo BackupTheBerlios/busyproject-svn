@@ -18,7 +18,7 @@
 		global $_BUSY;
 		$this->Smarty();
 		
-		$this->template_dir = $_BUSY['SmartyDir'].'templates/';
+		$this->template_dir = $_BUSY['RootDir'].'Templates/';
 		$this->compile_dir = $_BUSY['SmartyDir'].'templates_c/';
 		$this->config_dir = $_BUSY['SmartyDir'].'configs/';
 		$this->cache_dir = $_BUSY['SmartyDir'].'cache/';

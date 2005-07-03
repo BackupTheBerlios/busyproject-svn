@@ -15,9 +15,8 @@
 define("IN_BUSY", 1);
 
 require_once($_BUSY['IncludeDir'].'Config.inc.php');
-require_once($_BUSY['IncludeDir'].'Functions.inc.php');
 require_once($_BUSY['AdodbDir'].'adodb.inc.php');
-require_once($_BUSY['IncludeDir'].'Logger.inc.php');
+require_once($_BUSY['IncludeDir'].'Functions.inc.php');
 require_once($_BUSY['IncludeDir'].'Constants.inc.php');
 require_once($_BUSY['IncludeDir'].'Smarty.inc.php');
 
@@ -32,6 +31,11 @@ header('Content-type: text/html;charset=iso-8859-1');
 
 /* cache control */
 header('cache-control: private');
+
+/* get database connection */
+$db = &ADONewConnection('mysql');
+$db->Connect($_BUSY['ADODBServer'], $_BUSY['ADODBUser'], $_BUSY['ADODBPass'], $_BUSY['ADODBName']);
+$db->debug = 1;
 
 if (!get_magic_quotes_gpc())
 {
